@@ -1,4 +1,4 @@
-In this code, we showed two approaches to check an common items into two lists. First one is better than the second approach as the first one 
+In this code, we showed two approaches to check a common item into two lists. First one is better than the second approach as the first one 
 has less time complexity. 
 
 first approach ==> O(n+m)
