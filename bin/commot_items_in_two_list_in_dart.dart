@@ -19,7 +19,8 @@ array2 = ['y', 'c'];          ===> return false as nothing is common in both lis
 void main() {
   //////////////////////////////// First Approach //////////////////////////////
 
-  final data = {};
+  final data =
+      {}; //we would like to save first List's elements into an object to avoid nested iteration which saves time and resolve the time complexity of the second approach.
 
   bool isThereAnyCommonElement(array1, array2) {
     for (int i = 0; i < array1.length; i++) {
